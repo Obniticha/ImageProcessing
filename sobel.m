@@ -38,8 +38,8 @@ for i = 1:m
             end
          end
 
-        sumn_x = sumn_x*(1/6);
-        sumn_y = sumn_y*(1/6);
+        sumn_x = sumn_x*(1/8);
+        sumn_y = sumn_y*(1/8);
 
         I_new(i,j) = sqrt((sumn_x^2)+(sumn_y^2));
     end
